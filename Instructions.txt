@@ -1,1 +1,0 @@
-This is an implementation of a dictionary ADT, using an alphabetical Trie data structure. The initial structure of the code was written by Professor John Rager at Amherst college. To use this data structure, edit the commands in the main method of Trie.java.
