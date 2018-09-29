@@ -1,3 +1,6 @@
+
+//Structure and some method headers provided by prof. John Rager
+
 import java.util.Vector;
 
 public class TrieNode {
@@ -123,7 +126,12 @@ public class TrieNode {
 		}
 	}
 
-	//Adds all dictionary words with the given string to the given vector
+	/*
+	No predefined method header
+
+	Adds all dictionary words with the given string to the given vector
+	*/
+	
 	public void matchString(Vector w, String match){
 		if(match.length() == 0){
 			allKeyValue(w);
@@ -140,7 +148,11 @@ public class TrieNode {
 		}
 	}
 
-	//Adds all words with x amount of characters to the given vector
+	/*
+	No predefined method header
+
+	Adds all words with x amount of characters to the given vector
+	*/
 	public void xLetterWords(Vector w, int x){
 		if(x >= 0){
 			if(wordHere != null && x == 0){

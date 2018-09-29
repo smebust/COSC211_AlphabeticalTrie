@@ -1,3 +1,6 @@
+
+//Structure and some method headers for this class provided by Prof. John Rager
+
 import java.util.Vector;
 
 public class Word implements Comparable<Word> {
